@@ -1,3 +1,8 @@
+> 이 글은 전반적으로 [컬렉션의 복사 방법을 정리해봅시다! (unmodifiable view / list)](https://creampuffy.tistory.com/148?category=986887#%EB%A-%--%EC%B-%--%--%ED%-A%B-%EC%A-%--%--%ED%-C%-C%EC%-D%BC%EC%--%--%--%EB%-C%--%ED%--%B-%--%EC%-D%BD%EA%B-%B-%--%EC%A-%--%EC%-A%A-%--%EA%B-%-C%ED%--%-C%EC%-C%BC%EB%A-%-C%--%EA%B-%B-%EC%-C%A-%EB%A-%BC%--%EB%B-%-B%EC%--%--%EB%-B%A-%EA%B-%A-%--%EC%--%-D%EA%B-%--%ED%--%--%EB%A-%B-%--%EB%--%A-%EB%-B%--%EB%-B%A--%EC%--%--%EC%A-%--%--%EA%B-%-C%ED%--%-C%EC%-D%B-%--%EC%-E%--%EB%-A%--%--%EC%--%AC%EB%-E%-C%EC%-D%B-%--%EC%--%--%EC%A-%--%ED%--%A-%--%EA%B-%BD%EC%-A%B-%-C%--%EA%B-%B-%--%EC%--%--%EC%A-%--%EB%--%-C%--%EB%--%B-%EC%-A%A-%EC%-D%--%--%EB%B-%B-%EA%B-%-C%--%EB%--%--%EB%-A%--%--%EA%B-%B-%EC%A-%A--%EA%B-%B-%EB%-F%AC%EB%--%--%--%EB%--%B-%EA%B-%--%--%EC%--%--%EC%A-%--%ED%--%--%EB%A-%A-%--%ED%--%A-%--%EB%--%--%--%EA%B-%-C%ED%--%-C%EC%-D%B-%--%EC%--%--%EC%--%B-%EC%--%-C%--%EC%-B%A-%ED%-C%A-%ED%--%A-%EB%-B%--%EB%-B%A-%---%-E%--UOE%--%EB%B-%-C%EC%--%-D-) 를 참고하였습니다.
+> 더 자세한 내용을 원하시면 리차드님 블로그를 방문해주세요! 좋은 글이 넘쳐납니다!!
+
+
+
 ## 뭐가 다른거지? 
 
 우리는 주로 외부와 내부에서 주소값을 공유하는 인스턴스의 관계를 끊어주기 위해서 방어적 복사를 사용한다. (불변 유지)
